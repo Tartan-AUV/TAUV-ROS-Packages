@@ -1,0 +1,6 @@
+classes= 4
+train=data/robosub/trainvalno5k.txt
+valid=data/robosub/5k.txt
+names=data/robosub.names
+backup=backup/
+eval=robosub

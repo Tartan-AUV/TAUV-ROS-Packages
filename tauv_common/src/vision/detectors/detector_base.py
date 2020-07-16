@@ -2,10 +2,9 @@ from abc import ABC, abstractmethod
 
 
 class Detector(ABC):
-    def __init__(self, name, param):
+    def __init__(self, name):
         self.name = name
-        self.param = param
 
     @abstractmethod
-    def get_detection(self, image):
+    def get_detection(self, src_image):
         pass
