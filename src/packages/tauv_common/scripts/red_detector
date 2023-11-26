@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+from vision.detect_red import red_detector
+
+if __name__ == "__main__":
+    red_detector.main()

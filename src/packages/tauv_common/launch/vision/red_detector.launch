@@ -1,0 +1,5 @@
+<launch>
+	<node pkg=”tauv_common” type=”red_detector” name=”red_detector”>
+	</node>
+</launch>
+
